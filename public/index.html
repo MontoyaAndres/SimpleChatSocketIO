@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Chat</title>
+</head>
+
+<body class="grey lighten-5">
+    <div class="container">
+        <br>
+        <div class="row s12">
+            <div id="content" class="z-depth-3">
+                <ul class="messages"></ul>
+            </div>
+        </div>
+        <div class="row s12 input-field namebox">
+            <i class="fa fa-user-o prefix hide-on-small-only prefix1" aria-hidden="true"></i>
+            <input type="text" id="name" class="validate">
+            <label for="name">Nombre</label>
+        </div>
+        <div class="row">
+            <div class="input-field col s11 input_messages">
+                <i class="fa fa-comment-o prefix hide-on-small-only prefix2" aria-hidden="true"></i>
+                <input type="text" id="box" class="validate">
+                <label for="name">Mensaje</label>
+            </div>
+            <div class="col s1 button center">
+                <a id="send" class="btn-floating btn-large green waves-effect waves-light">
+                    <i class="fa fa-paper-plane-o right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+
+</html>

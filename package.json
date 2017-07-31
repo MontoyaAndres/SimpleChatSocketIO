@@ -1,0 +1,32 @@
+{
+  "name": "Chat",
+  "version": "1.0.0",
+  "description": "Simple chat with SOCKET.IO",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d public --copy-files",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Chat",
+    "SocketIO",
+    "Node",
+    "Express",
+    "RealTime"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spyrock"
+  },
+  "author": "Andrés Montoya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-cli": "6.24.1",
+    "nodemon": "1.11.0"
+  }
+}
