@@ -2,7 +2,7 @@
 
 this is my first chat :) 
 
-![Design](http://imgur.com/gSCz4fA)
+![Design](http://i.imgur.com/gSCz4fA.png)
 
 Share it!
 
