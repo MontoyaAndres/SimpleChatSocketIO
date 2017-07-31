@@ -2,6 +2,8 @@
 
 this is my first chat :) 
 
+![Design](http://imgur.com/gSCz4fA)
+
 Share it!
 
 ## My Email 
